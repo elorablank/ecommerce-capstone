@@ -20,7 +20,48 @@
 
 <body>
     <header>
-        <nav></nav>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="/images/logo.png" width="30" height="30"
+                        class="d-inline-block align-top" alt="Zelda's Cafe Logo">
+                    Zelda's Cafe
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcollapse"
+                    aria-controls="navbarcollapse" aria-expanded=false aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarcollapse">
+                    <ul class="nav navrbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="registration.html">Subscribe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item dropdown bg-primary">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Shop Here!
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="drinks.html">Drinks</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="brunch.html">Brunch</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="dessert.html">Desserts</a></li>
+                            </ul>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="checkout.html">Checkout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
     <main></main>
     <footer></footer>

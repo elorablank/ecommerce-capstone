@@ -1,0 +1,16 @@
+button {
+    color: white !important;
+    font-weight: bold !important; 
+}
+
+span {
+    color: #144c40 !important;
+}
+.card {
+    background-color:#0394ce;
+}
+
+.d-flex, h5 {
+    display: flex;
+    justify-content: center;
+}

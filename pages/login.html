@@ -14,15 +14,115 @@
     <link rel="stylesheet" href="/css/global.css">
 
     <!--This is for this page ONLY-->
+    <link rel="stylesheet" href="/css/login.css">
     <title>Login</title>
 
 </head>
 
 <body>
     <header>
-        <nav></nav>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="/images/logo.png" width="30" height="30"
+                        class="d-inline-block align-top" alt="Zelda's Cafe Logo">
+                    Zelda's Cafe
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarcollapse"
+                    aria-controls="navbarcollapse" aria-expanded=false aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarcollapse">
+                    <ul class="nav navrbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="registration.html">Subscribe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Shop Here!
+                            </a>
+                            <ul class="dropdown-menu bg-primary">
+                              <li><a class="dropdown-item" href="drinks.html">Drinks</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="brunch.html">Brunch</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="dessert.html">Desserts</a></li>
+                            </ul>
+                          </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="checkout.html">Checkout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
-    <main></main>
+    <main>
+        <section class="vh-100">
+            <div class="container py-5 h-100">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col col-xl-10">
+                  <div class="card" style="border-radius: 1rem;">
+                    <div class="row g-0">
+                      <div class="col-md-6 col-lg-5 d-none d-md-block">
+                        <!---- <img src="/images/chef.webp"
+                          alt="login form" class="img-fluid" style="border-top-left-radius: 1rem;" >
+                          <img src="/images/image_png.avif" alt="login form" 
+                          class="img-fluid" style="border: 1rem 0 0 1rem;" > --->
+                          <img src="/images/lightgreenbg.webp"
+                          alt="login form" class="img-fluid" style="border-top-left-radius: 1rem;">
+                          <img src="/images/chef.webp"
+                          alt="login form" class="img-fluid" style="border-bottom-left-radius: 1rem;">
+                      </div>
+                      <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                        <div class="card-body p-4 p-lg-5 text-black">
+          
+                          <form>
+          
+                            <div class="d-flex align-items-center mb-3 pb-1">
+                                <img src="/images/logo.png" width="30" height="30" alt="Zelda's Cafe Logo">
+                              <span class="h1 fw-bold mb-0">Zelda's Cafe</span>
+                            </div>
+          
+                            <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
+          
+                            <div class="form-outline mb-4">
+                              <input type="text" id="form2Example17" class="form-control form-control-lg" placeholder="Username" aria-label="Username" aria-describedby="basic-addon2">
+                            </div>
+          
+                            <div class="form-outline mb-4">
+                              <input type="text" id="form2Example27" class="form-control form-control-lg" placeholder="Password" aria-label="Password" aria-describedby="basic-addon2">
+                            </div>
+          
+                            <div class="pt-1 mb-4 text-center">
+                              <button class="btn btn-primary btn-dark btn-lg btn-block" type="button" style="background-color: #245850; border-color: #0394ce">Login</button>
+                            </div>
+                            
+                            <div class="text-center">
+                            <a class="small" href="#!" style="color:black;">Forgot password?</a>
+                            <p class="mb-5 pb-lg-2" style="color:black;">Don't have an account? <a href="registration.html"
+                                style="color: black;">Register here</a></p>
+                            <a href="#!" class="small" style="color:black;">Terms of use.</a>
+                            <a href="#!" class="small" style="color:black;">Privacy policy</a>
+                        </div>
+                          </form>
+          
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </main>
     <footer></footer>
 </body>
 
