@@ -21,7 +21,7 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary shadow p-3 mb-5 bg-body">
       <div class="container">
         <a class="navbar-brand" href="index.html">
           <img src="/images/logo.png" width="30" height="30" class="d-inline-block align-top" alt="Zelda's Cafe Logo">
@@ -49,6 +49,10 @@
                 Shop Here!
               </a>
               <ul class="dropdown-menu bg-primary">
+                <li><a class="dropdown-item" href="product.html">Shop All</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
                 <li><a class="dropdown-item" href="drinks.html">Drinks</a></li>
                 <li>
                   <hr class="dropdown-divider">
@@ -87,7 +91,6 @@
                 </div>
                 <div class="col-md-6 col-lg-7 d-flex align-items-center">
                   <div class="card-body p-4 p-lg-5 text-black">
-
                     <form>
 
                       <div class="d-flex align-items-center mb-3 pb-1">
@@ -101,14 +104,16 @@
                         <div class="col-md-6 mb-4">
 
                           <div class="form-outline">
-                            <input type="text" id="firstName" class="form-control form-control-lg" placeholder="First Name" aria-label="First Name" aria-describedby="basic-addon2">
+                            <input type="text" id="fullname" class="form-control form-control-lg"
+                              placeholder="First And Last Name" aria-label="First And Last Name">
                           </div>
 
                         </div>
                         <div class="col-md-6 mb-4">
 
                           <div class="form-outline">
-                            <input type="text" id="lastName" class="form-control form-control-lg" placeholder="Last Name" aria-label="Last Name" aria-describedby="basic-addon2" >
+                            <input type="text" id="Username" class="form-control form-control-lg" placeholder="Username"
+                              aria-label="Username">
                           </div>
 
                         </div>
@@ -118,14 +123,16 @@
                         <div class="col-md-6 mb-4 d-flex align-items-center">
 
                           <div class="form-outline datepicker w-100">
-                            <input type="text" class="form-control form-control-lg" id="birthdayDate" placeholder="Birthday" aria-label="Birthday" aria-describedby="basic-addon2">
+                            <input type="password" class="form-control form-control-lg" id="password"
+                              placeholder="Password" aria-label="Password">
                           </div>
                         </div>
 
                         <div class="col-md-6 mb-4">
 
                           <div class="form-outline">
-                            <input type="text" id="gender" class="form-control form-control-lg" placeholder="Gender" aria-label="Gender" aria-describedby="basic-addon2">
+                            <input type="password" id="confirmpassword" class="form-control form-control-lg"
+                              placeholder="Confirm Password" aria-label="Confirm Password">
                           </div>
                         </div>
                       </div>
@@ -133,25 +140,49 @@
                       <div class="row">
                         <div class="col-md-6 mb-4 pb-2">
                           <div class="form-outline">
-                            <input type="email" id="emailAddress" class="form-control form-control-lg" placeholder="Email Address" aria-label="Email Address" aria-describedby="basic-addon2">
+                            <input type="email" id="emailAddress" class="form-control form-control-lg"
+                              placeholder="Email Address" aria-label="Email Address">
                           </div>
                         </div>
 
                         <div class="col-md-6 mb-4 pb-2">
                           <div class="form-outline">
-                            <input type="tel" id="phoneNumber" class="form-control form-control-lg" placeholder="Phone Number" aria-label="Phone Number" aria-describedby="basic-addon2">
+                            <input type="email" id="confirmemail" class="form-control form-control-lg"
+                              placeholder="Confirm Email Address" aria-label="Confirm Email Address">
                           </div>
                         </div>
                       </div>
-                      
-                      <div class="pt-1 mb-4 text-center">
-                        <button class="btn btn-primary btn-dark btn-lg btn-block" type="button" style="background-color: #245850; border-color: #0394ce">Submit</button>
+
+                      <p class="text-center" style="font-weight: bold; color: #144c40;">How did you hear about us? </p>
+                      <input type="radio" id="radio1" value="HTML"> <label for="radio1">Friends</label>
+                      <input type="radio" id="radio2" value="HTML"> <label for="radio2">Family</label>
+                      <input type="radio" id="radio3" value="HTML"> <label for="radio3">Social Media</label>
+                      <input type="radio" id="radio4" value="HTML"> <label for="radio4">Commercial</label>
+                      <input type="radio" id="radio5" value="HTML"> <label for="radio5">Flyer</label>
+
+
+
+                      <div class="pt-3 mb-4 text-center">
+                        <!--<a href="index.html"> <button class="btn btn-primary btn-dark btn-lg btn-block" type="button"
+                            style="background-color: #245850; border-color: #0394ce">Login</button> </a>--->
+                        <a href="index.html" class="btn bbtn-primary btn-dark btn-lg btn-block" role="button"
+                          style="color:white; font-weight:bold; background-color: #245850; border-color: #0394ce">Link
+                          Button</a>
                       </div>
 
                       <p class="mb-5 pb-lg-2 text-center" style="color:black;">Have an account? <a href="login.html"
-                        style="color: black;">Login here</a></p>
+                          style="color: black;">Login here</a></p>
+
 
                     </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer></footer>
 </body>

@@ -15,3 +15,7 @@ span {
     display: flex;
     justify-content: center;
 }
+
+input[type=radio] {
+     margin-left:1rem;
+}

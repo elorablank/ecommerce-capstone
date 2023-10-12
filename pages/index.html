@@ -21,11 +21,11 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow p-3 mb-5 bg-body">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img src="/images/logo.png" width="30" height="30"
-                        class="d-inline-block align-top" alt="Zelda's Cafe Logo">
+                    <img src="/images/logo.png" width="30" height="30" class="d-inline-block align-top"
+                        alt="Zelda's Cafe Logo">
                     Zelda's Cafe
                 </a>
 
@@ -45,17 +45,26 @@
                             <a class="nav-link" href="login.html">Login</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Shop Here!
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Shop Here!
                             </a>
                             <ul class="dropdown-menu bg-primary">
-                              <li><a class="dropdown-item" href="drinks.html">Drinks</a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="brunch.html">Brunch</a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="dessert.html">Desserts</a></li>
+                                <li><a class="dropdown-item" href="product.html">Shop All</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="drinks.html">Drinks</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="brunch.html">Brunch</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="dessert.html">Desserts</a></li>
                             </ul>
-                          </li>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="checkout.html">Checkout</a>
                         </li>
@@ -65,7 +74,79 @@
         </nav>
     </header>
     <main>
-        
+        <!---<div class="container" style="padding-right: 0%;">
+            <div class="row" style="padding-right: 0%;">
+                <div class="col-6">
+
+                </div>
+                <div class="col-6" style="display:flex; justify-content: flex-end; padding-right: 0%;">
+                    <img src="/images/zelda4.jpeg" style="width:1024px; height:320px;">
+                </div>
+            </div>
+        </div> --->
+        <!---<div class="row">
+            <div class="col" style="background-color: #0394ce; padding-right:0; height:320px;">
+                <h1> words </h1>
+                <p> more words </p>
+            </div>
+            <div class="col" style="padding-left: 0%;">
+                <img src="/images/zelda4.jpeg">
+            </div>
+        </div>--->
+        <div class="container">
+            <div class="row mr-auto" style="display: flex; justify-content: center;">
+                <div class="col-md-auto">
+                    <div class="card" style="background-color: #0394ce;">
+                        <img class="card-img-top" src="/images/zelda4.jpeg"
+                            style="margin-top:0rem; margin-bottom: 1rem;" alt="Princess Zelda">
+                        <div class="card-body">
+                            <h5 class="card-title" style="text-align: center; margin: auto; color: white;">Welcome to
+                                Zelda's Cafe!</h5>
+                            <p class="card-text" style="text-align: center; margin:5%; color:white; font-size: larger;">
+                                We have a wide variety of drinks, brunch, and desserts! </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card mb-3 m-5" style="background-color: #0394ce;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="/images/totkmap.png" class="img-fluid rounded-start" style="text-align: center;"
+                            alt="map of Hyrul">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title p-2" style="text-align: center; color: white; font-size: x-large;"> Our ingredients </h5>
+                            <p class="card-text pt-3" style="text-align: center; color: white;">All of our ingredients are picked from the wilds of Hyrule! A suspendisse penatibus nec lacinia vestibulum ullamcorper pretium risus mi 
+                                interdum eu primis massa adipiscing lacinia donec phasellus. Eu iaculis vestibulum odio a erat ultrices curae parturient nec vestibulum a adipiscing vestibulum dis pharetra et dis ante dui ridiculus volutpat 
+                                pretium praesent ligula. Condimentum scelerisque sagittis est tristique et molestie condimentum vestibulum conubia per a a dis sociosqu magna.</p>
+                            <p class="card-text pt-1" style="text-align: center; color: white;"> A suspendisse penatibus nec lacinia vestibulum ullamcorper pretium risus mi interdum eu primis massa adipiscing lacinia donec phasellus. 
+                                Eu iaculis vestibulum odio a erat ultrices curae parturient nec vestibulum a adipiscing vestibulum dis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="card mb-3 m-5" style="background-color: #0394ce;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <div class="card-body">
+                            <h5 class="card-title p-2" style="text-align: center; color: white; font-size: x-large;"> Chef Link </h5>
+                            <p class="card-text pt-3" style="text-align: center; color: white;"> Vestibulum at penatibus nisl scelerisque a a porta condimentum velit a eget a curae fames neque a a commodo consequat suscipit.
+                             A ultrices luctus parturient orci in hac conubia ac felis parturient integer ut magna a mi dui facilisi sociosqu suscipit in consectetur. </p>
+                             <p class="card-text pt-1" style="text-align: center; color: white;"> Imperdiet id egestas ac id pharetra ad mollis ac nam a parturient natoque leo gravida per a. 
+                                Nascetur diam a suspendisse suspendisse sagittis montes a nam curae non ad id sed malesuada a leo vestibulum nostra adipiscing ac a magna.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <img src="/images/image_png.avif" class="img-fluid rounded-start" alt="Link">
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer></footer>
 </body>
